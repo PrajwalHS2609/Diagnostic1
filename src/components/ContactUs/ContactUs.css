@@ -159,5 +159,7 @@
 }
 .contactUs-addressContainer{
   border: solid red;
+  width:100%;
+  height:100%;
 
 }

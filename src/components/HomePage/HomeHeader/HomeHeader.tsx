@@ -3,6 +3,10 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./HomeHeader.css";
 import Link from "next/link";
+import bloodTest from "./HomeHeaderImgs/Blood Test.png";
+import ultrasound from "./HomeHeaderImgs/Ultrasound.png";
+import Image from "next/image";
+
 export default function HomeHeader() {
   const handleAppointment = () => {
     const bookPopUpElement = document.querySelector(".bookPopUp");
@@ -31,7 +35,7 @@ export default function HomeHeader() {
       items: 1,
     },
   };
-  
+
   return (
     <div className="homeHeader-container">
       <Carousel
@@ -54,42 +58,34 @@ export default function HomeHeader() {
         <div className="carousel-container">
           <div className="homeHeader-content">
             <div className="homeHeader-item">
-              <h3>Best Diagnostic Experience</h3>
+              <h3>Blood Tests at Home</h3>
               <p>
-                At Diagnostic hospital, we believe that healthcare should be
-                more than just a service. It should be a compassionate and
-                collaborative journey towards wellness.
+                Get accurate and reliable blood tests from the comfort of your
+                home with expert care at your doorstep.
               </p>
               <Link href="/">
                 <button onClick={handleAppointment}>Book Appointment</button>
               </Link>
             </div>
             <div className="homeHeader-item">
-              <img
-                src="https://img.freepik.com/free-photo/two-doctors-lab_23-2147822684.jpg?t=st=1734359549~exp=1734363149~hmac=ef7c6dbb31f1cb44473e1ae8b8cf2e95592f0440a1b395a88e8afbd4dde56042&w=996"
-                alt=""
-              />
+              <Image src={bloodTest} alt="bloodTest" />
             </div>
           </div>
         </div>
         <div className="carousel-container">
           <div className="homeHeader-content">
             <div className="homeHeader-item">
-              <h3>Cutting-Edge Technology for Accurate Results</h3>
+              <h3>Clear Insights, Better Care: Ultrasound Scan </h3>
               <p>
-                At Diagnostic Hospital, we invest in the latest medical
-                technologies and equipment to provide the most precise
-                diagnostic results.
+                Experience precise and reliable imaging with our advanced
+                ultrasound scan services for accurate diagnostics.
               </p>
               <Link href="/">
                 <button onClick={handleAppointment}>Book Appointment</button>
               </Link>
             </div>
             <div className="homeHeader-item">
-              <img
-                src="https://img.freepik.com/free-photo/medical-technician-mature-patient-mri-scanning-procedure-clinic_637285-5005.jpg?t=st=1734423469~exp=1734427069~hmac=3a80491197cb03b2b951f518008e534a8efae285d1b6c3fb3a10be31b6f285cb&w=996"
-                alt=""
-              />
+              <Image src={ultrasound} alt="Ultrasound" />
             </div>
           </div>
         </div>

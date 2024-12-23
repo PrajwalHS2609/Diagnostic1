@@ -1,55 +1,66 @@
+import Image from "next/image";
 import "./HomeWhy.css";
+import expertiseExperienceImg from "./HomeWhyImgs/Expertise and Experience.png";
+import cuttingEdgeTechnology from "./HomeWhyImgs/Cutting-Edge Technology.png";
+import comprehensiveServices from "./HomeWhyImgs/Comprehensive Services.png";
+import patientCentricCareImg from "./HomeWhyImgs/Patient-Centric Care.png";
+import commitmentToQuality from "./HomeWhyImgs/Commitment to Quality.png";
+import transparentProcesses from "./HomeWhyImgs/Transparent Processes.png";
+import positivePatient from "./HomeWhyImgs/Positive Patient Experience.png";
+import communityTrust from "./HomeWhyImgs/Community Trust.png";
+import continuousImprovement from "./HomeWhyImgs/Continuous Improvement.png";
+import holisticHealthFocus from "./HomeWhyImgs/Holistic Health Focus.png";
 
 export default function HomeWhyMain() {
   const data = [
     {
-      id: "1",
-      img: "https://invivohospitals.com/wp-content/uploads/elementor/thumbs/icon-5-ptl401rsl6a7sqn9oacmpey96moqzlix4d3gqeqhtc.png",
+      id: 1,
+      img: expertiseExperienceImg,
       title: "Expertise and Experience",
     },
     {
-      id: "2",
-      img: "https://invivohospitals.com/wp-content/uploads/elementor/thumbs/icon-4-ptl3zyya0o6ctwrd4r4qzxnveh2nci7q3z50akuoc0.png",
+      id: 2,
+      img: cuttingEdgeTechnology,
       title: "Cutting-Edge Technology",
     },
     {
-      id: "3",
-      img: "https://invivohospitals.com/wp-content/uploads/elementor/thumbs/icon-1-ptl3zrfkhzw2912acnvqfzk6ne3pmxdvexx4gd5tps.png",
+      id: 3,
+      img: comprehensiveServices,
       title: "Comprehensive Services  ",
     },
     {
-      id: "4",
-      img: "https://invivohospitals.com/wp-content/uploads/elementor/thumbs/icon-2-ptl3zu932hzx7uy6w73m5gukfjpta0p2fbvkw71n74.png",
+      id: 4,
+      img: patientCentricCareImg,
       title: "Patient-Centric Care",
     },
     {
-      id: "5",
-      img: "https://invivohospitals.com/wp-content/uploads/elementor/thumbs/icon-3-ptl3zw4rg62hv2vgl7wvagdhmbgjpewj3l6juqyuuo.png",
+      id: 5,
+      img: commitmentToQuality,
       title: "Commitment to Quality",
     },
     {
-      id: "6",
-      img: "https://invivohospitals.com/wp-content/uploads/elementor/thumbs/icon-5-ptl401rsl6a7sqn9oacmpey96moqzlix4d3gqeqhtc.png",
+      id: 6,
+      img: transparentProcesses,
       title: "Transparent Processes",
     },
     {
-      id: "7",
-      img: "https://invivohospitals.com/wp-content/uploads/elementor/thumbs/icon-4-ptl3zyya0o6ctwrd4r4qzxnveh2nci7q3z50akuoc0.png",
+      id: 7,
+      img: positivePatient,
       title: "Positive Patient Experience",
     },
     {
-      id: "8",
-      img: "https://invivohospitals.com/wp-content/uploads/elementor/thumbs/icon-1-ptl3zrfkhzw2912acnvqfzk6ne3pmxdvexx4gd5tps.png",
+      id: 8,
+      img: communityTrust,
       title: "Community Trust",
     },
     {
-      id: "9",
-      img: "https://invivohospitals.com/wp-content/uploads/elementor/thumbs/icon-2-ptl3zu932hzx7uy6w73m5gukfjpta0p2fbvkw71n74.png",
+      id: 9,
+      img: continuousImprovement,
       title: "Continuous Improvement",
     },
     {
-      id: "10",
-      img: "https://invivohospitals.com/wp-content/uploads/elementor/thumbs/icon-3-ptl3zw4rg62hv2vgl7wvagdhmbgjpewj3l6juqyuuo.png",
+      id: 10,
+      img: holisticHealthFocus,
       title: "Holistic Health Focus",
     },
   ];
@@ -57,7 +68,7 @@ export default function HomeWhyMain() {
     <div className="homeWhyMain-container">
       {data.map((x) => (
         <div className="homeWhyMain-card" key={x.id}>
-          <img src={x.img} alt={x.title} />
+         <div className="homeWhyMain-imgContainer"> <Image src={x.img} alt={x.title} /></div>
           <h6>{x.title}</h6>
         </div>
       ))}

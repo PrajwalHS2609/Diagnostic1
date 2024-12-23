@@ -99,12 +99,6 @@ export default function Menu() {
               <li>
                 <Link href="/ultrasound-scan">UltraSound</Link>
                 <MdKeyboardArrowRight className="menuDrop-arrowIco" />
-                {/* <div className="subMenu-drop">
-                  <ul>
-                    <li>3D & 4D Foetal Ultrasound</li>
-                    <li>Doppler Scanning</li>
-                  </ul>
-                </div> */}
               </li>
               <li>
                 <Link href="/doppler-scan">Doppler Scanning</Link>
@@ -117,6 +111,12 @@ export default function Menu() {
               <li>
                 <Link href="/cardiology-test">Cardiology</Link>
                 <MdKeyboardArrowRight className="menuDrop-arrowIco" />
+                {/* <div className="subMenu-drop">
+                  <ul>
+                    <li>3D & 4D Foetal Ultrasound</li>
+                    <li>Doppler Scanning</li>
+                  </ul>
+                </div> */}
               </li>
 
               <li>
@@ -142,7 +142,7 @@ export default function Menu() {
           </div>
         </li>
         <li>
-          <Link href="/about-us">About Us</Link>
+          <Link href="/">About Us</Link>
         </li>
         <li>
           <Link href="/">Contact Us</Link>

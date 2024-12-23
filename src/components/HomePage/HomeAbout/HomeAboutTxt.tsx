@@ -2,27 +2,21 @@ export default function HomeAboutTxt() {
   return (
     <div className="homeAboutTxt-container">
       <h6>About us</h6>
-      <h2>Your health, our expertise</h2>
+      <h2>Global Health Diagnostics: Your Trusted Partner in Quality Care
+      </h2>
       <p>
-        Welcome to Diagnostic1 multi-specialty hospital, where we are dedicated to
-        providing the highest quality of healthcare services to our patients.
-        Our hospital is staffed with highly skilled and experienced doctors,
-        nurses, and support staff who are committed to delivering compassionate
-        care in a warm and welcoming environment.
+      Located in the heart of Sadashivnagar, Bangalore, Global Health Diagnostics & Specialist Center stands as a beacon of excellence in the field of diagnostic technology. With over a decade of experience, we have consistently delivered high-quality diagnostic services, earning the trust of our valued customers.
+
       </p>
       <p>
-        Our hospital is equipped with state-of-the-art facilities and advanced
-        medical technologies to provide the best possible medical care to our
-        patients. We offer a wide range of medical services across multiple
-        specialties, including cardiology, neurology, orthopedics,
-        gastroenterology, pulmonology, and more.
+      Our commitment to continuous improvement and customer satisfaction drives us to stay at the forefront of advancements in diagnostic technology. Our dedicated team of skilled professionals works tirelessly to build strong, trusted relationships with healthcare practitioners and institutions, ensuring superior diagnostic care.
+
       </p>
       <p>
-        Our team of doctors and specialists work closely together to ensure that
-        our patients receive the most comprehensive and personalized care
-        possible. We believe in taking a multidisciplinary approach to
-        healthcare, where our doctors work together to diagnose and treat
-        patients, drawing on their collective knowledge and expertise.
+      At Global Health Diagnostics, we pride ourselves on offering Annual Health Check-ups and Periodical Health Check-ups, tailored to meet your health needs. We are committed to providing professional, value-driven, and futuristic laboratory assistance that supports your journey to better health.
+
+      </p>
+      <p>Choose Global Health Diagnostics—where expertise meets excellence.
       </p>
     </div>
   );

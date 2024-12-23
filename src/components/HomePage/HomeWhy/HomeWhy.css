@@ -18,7 +18,7 @@
   gap: 10px;
 }
 
-.homeWhyHead-container>p {
+.homeWhyHead-container > p {
   width: 80%;
   text-align: center;
   font-weight: 600;
@@ -32,7 +32,6 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-
 }
 
 .homeWhyMain-card {
@@ -44,19 +43,18 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
+
 }
 
-.homeWhyMain-card>img {
+.homeWhyMain-imgContaine > img {
   width: 100px;
   height: 100px;
+  object-fit: cover;
   border-radius: 100%;
   box-shadow: 10px 5px 10px grey;
 }
 
-
-
-
-.homeWhyMain-card>h6 {
+.homeWhyMain-card > h6 {
   text-align: center;
 }
 
@@ -77,7 +75,7 @@
     gap: 30px;
   }
 
-  .homeWhyMain-card>h6 {
+  .homeWhyMain-card > h6 {
     text-align: start;
   }
 }

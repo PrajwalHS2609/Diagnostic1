@@ -10,9 +10,10 @@ export default function HomeAboutImg() {
       <div className="homeAboutImg-content">
         <div className="homeAboutImg-item">
           <p>
-            We are committed to delivering personalized care to every patient
-            who walks through our doors, and we strive to create a warm and
-            welcoming environment where our patients feel at ease.
+            At Global Health Diagnostics, we deliver accurate, compassionate,
+            and innovative diagnostic services. Led by our Managing Director, we
+            prioritize excellence, advanced technology, and trust to make
+            healthcare accessible for all.
           </p>
           <div className="homeAboutImg-innerItem">
             <img
@@ -21,7 +22,7 @@ export default function HomeAboutImg() {
             />
             <span>
               {" "}
-              <h5>John Doe</h5>
+              <h5>Sandeep Reddy</h5>
               Managing Director
             </span>
           </div>
