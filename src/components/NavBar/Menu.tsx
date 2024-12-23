@@ -98,25 +98,26 @@ export default function Menu() {
               </li>
               <li>
                 <Link href="/ultrasound-scan">UltraSound</Link>
-                <MdKeyboardArrowRight className="menuDrop-arrowIco" />
+                {/* <MdKeyboardArrowRight className="menuDrop-arrowIco" /> */}
               </li>
               <li>
                 <Link href="/doppler-scan">Doppler Scanning</Link>
-                <MdKeyboardArrowRight className="menuDrop-arrowIco" />
+                {/* <MdKeyboardArrowRight className="menuDrop-arrowIco" /> */}
               </li>
               <li>
                 <Link href="/x-ray">X-Ray</Link>
-                <MdKeyboardArrowRight className="menuDrop-arrowIco" />
+                {/* <MdKeyboardArrowRight className="menuDrop-arrowIco" /> */}
               </li>
-              <li>
+              <li id="cardiologyDrop">
                 <Link href="/cardiology-test">Cardiology</Link>
                 <MdKeyboardArrowRight className="menuDrop-arrowIco" />
-                {/* <div className="subMenu-drop">
+                <div className="subMenu-drop">
                   <ul>
-                    <li>3D & 4D Foetal Ultrasound</li>
-                    <li>Doppler Scanning</li>
+                    <li><Link href="/ecg-test">ECG</Link></li>
+                    <li><Link href="/echo-test">ECHO</Link></li>
+                    <li><Link href="/tmt-test">TMT</Link></li>
                   </ul>
-                </div> */}
+                </div>
               </li>
 
               <li>
@@ -188,19 +189,19 @@ export default function Menu() {
                     <Link href="/ultrasound-scan" onClick={hideSideBar}>
                       UltraSound
                     </Link>
-                    <MdKeyboardArrowRight className="menuDrop-arrowIco" />
+                    {/* <MdKeyboardArrowRight className="menuDrop-arrowIco" /> */}
                   </li>
                   <li>
                     <Link href="/doppler-scan" onClick={hideSideBar}>
                       Doppler Scanning
                     </Link>
-                    <MdKeyboardArrowRight className="menuDrop-arrowIco" />
+                    {/* <MdKeyboardArrowRight className="menuDrop-arrowIco" /> */}
                   </li>
                   <li>
                     <Link href="/x-ray" onClick={hideSideBar}>
                       X-Ray
                     </Link>
-                    <MdKeyboardArrowRight className="menuDrop-arrowIco" />
+                    {/* <MdKeyboardArrowRight className="menuDrop-arrowIco" /> */}
                   </li>
                   <li>
                     <Link href="/cardiology-test" onClick={hideSideBar}>
