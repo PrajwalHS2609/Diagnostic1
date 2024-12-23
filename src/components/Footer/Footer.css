@@ -1,0 +1,220 @@
+.footer-container {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://invivohospitals.com/wp-content/uploads/2023/04/trangle-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  width: 100%;
+  height: 100%;
+  border: 0.1px solid rgba(255, 255, 255, 0.242);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.195);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.footer-wrapper:nth-child(2) {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer-Logo {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-Logo>img {
+  /* border: solid; */
+  width: 300px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 20px;
+  background-color: white;
+
+}
+
+.footer-Logo>p {
+  text-align: justify;
+  font-weight: 500;
+  color: white;
+}
+
+.footerLinks-container>ul>li {
+  list-style: none;
+  margin: 10px;
+}
+
+.footerLinks-container>ul>li>a {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+.footerAddress-container {
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footerAddress-container>ul {
+  /* border: solid; */
+  margin: 0;
+  padding: 0;
+}
+
+.footerAddress-container>ul>h4 {
+  color: var(--customColor2);
+}
+
+.footerAddress-container>ul>li {
+  list-style: none;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footerAddress-container>ul>li>a {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footerLinks-container>ul>h4 {
+  color: var(--customColor1);
+  font-weight: 600;
+}
+
+.footerAddress-container>ul>h4 {
+  color: var(--customColor1);
+  font-weight: 600;
+}
+
+.footerAddress-container>ul>li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footerAddressIco {
+  color: red;
+  font-size: 30px;
+}
+
+.footerAddressIco1 {
+  color: white;
+
+}
+
+.footer-wrapper>p {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+.addressFooter>a{
+  font-size: 15px;
+}
+
+/* ------------------footerSocial------------- */
+.footerSocial-container {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footerSocial-content {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 255, 0.363);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+}
+
+.footerSocialIco {
+  color: white;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .footer-container {
+    padding: 10px;
+  }
+
+  .footer-wrapper {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    gap: 50px;
+
+  }
+
+  .footer-Logo {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-wrapper:nth-child(2) {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .footerAddress-container>ul>li>a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 15px;
+  }
+  .addressFooter>a{
+    font-size: 12px;
+  }
+}

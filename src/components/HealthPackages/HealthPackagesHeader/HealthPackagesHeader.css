@@ -1,0 +1,24 @@
+.healthPackages-headerContainer {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.healthPackages-headerContainer>img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .healthPackages-headerContainer>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

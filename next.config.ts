@@ -1,7 +1,11 @@
+import { withNextVideo } from "next-video/process";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  images: {
+    unoptimized: true, // Disable the Image Optimization API
+  },
 };
 
-export default nextConfig;
+export default withNextVideo(nextConfig);

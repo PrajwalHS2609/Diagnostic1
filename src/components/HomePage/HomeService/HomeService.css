@@ -1,0 +1,67 @@
+.homeService-container {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.homeServicesHead-container {
+  /* border: solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.homeServicesHead-container>h2{
+  font-size: 40px;
+}
+.homeServicesHead-container > p {
+  width: 80%;
+  text-align: center;
+  font-weight: 600;
+}
+.homeServiceMain-container {
+  /* border: solid green; */
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.mySwiper {
+  /* border: solid blue; */
+  width: 100%;
+  height: 600px;
+  padding: 20px;
+}
+.swiper-3d {
+  padding: 30px !important;
+}
+.homeServiceMain-content {
+  /* border: solid var(--customColor1); */
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: 0 0 10px grey;
+}
+.homeServiceMain-content > img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+.homeServiceMain-content > p {
+  font-size: 15px;
+}
+.homeServiceMain-content > a {
+  color: var(--customColor2);
+  text-decoration: none;
+  font-weight: 600;
+}

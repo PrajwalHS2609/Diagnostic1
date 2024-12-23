@@ -1,0 +1,206 @@
+/* -------------------------Service Header Styles--------------------- */
+.serviceHeader-container {
+  /* border: solid red; */
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: linear-gradient(to right, #052a54, #2e6bc6);
+}
+
+.serviceHeader-content {
+  /* border: solid green; */
+  width: 100%;
+  height: 100%;
+}
+
+.serviceHeader-content:nth-child(1) {
+  border-right: 10px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  width: 50%;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.serviceHeader-content:nth-child(1) > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.serviceHeader-content > h2 {
+  color: white;
+}
+
+.serviceHeader-content:nth-child(2) {
+  /* border: solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.serviceHeader-item {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  /* border: solid black; */
+  margin-right: 50px;
+}
+
+.serviceHeader-item > h2 {
+  color: white;
+  text-align: center;
+  font-size: 55px;
+}
+
+.serviceHeader-item > p {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+.serviceHeader-item > button {
+  border-radius: 20px;
+  background-color: white;
+  color: var(--customColor2);
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 5px;
+}
+
+/* -------------------------Service Content Styles--------------------- */
+.serviceContent-container {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+  padding: 20px;
+}
+
+.serviceContent-container > h1 {
+  color: var(--customColor2);
+  font-family: 40px;
+  text-align: center;
+}
+.serviceContent-container > h2 {
+  color: var(--customColor1);
+  font-family: 30px;
+  text-align: center;
+}
+.serviceContent-container > p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* -----------------------------Services Card Style-------------------------- */
+.serviceCard-container {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.serviceCard-content {
+  /* border: solid green; */
+  width: 350px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #63fe036d;
+  padding: 10px;
+}
+
+.serviceCard-imgContainer {
+  width: 100%;
+  height: 50%;
+  border-radius: 20px;
+}
+
+.serviceCard-imgContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.serviceCard-contentContainer {
+  height: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.serviceCard-contentContainer > h3 {
+  color: var(--customColor2);
+}
+
+.serviceCard-contentContainer > p {
+  text-align: justify;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  /* -------------------------Service Header Styles--------------------- */
+  .serviceHeader-container {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .serviceHeader-content:nth-child(1) {
+    width: 100%;
+    position: static;
+  }
+  .serviceHeader-content:nth-child(2) {
+    /* border: solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  .serviceHeader-item {
+    width: 100%;
+    gap: 20px;
+    /* border: solid black; */
+    margin-right: 0px;
+  }
+
+  .serviceHeader-item > h2 {
+    font-size: 30px;
+  }
+
+  /* -------------------------Service Content Styles--------------------- */
+  .serviceContent-container {
+    /* border: solid red; */
+    width: 100%;
+  }
+}
