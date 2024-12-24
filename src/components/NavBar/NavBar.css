@@ -80,7 +80,6 @@
   align-items: center;
   gap: 10px;
   font-weight: 500;
-
 }
 
 .menu-content1 > li > a {
@@ -199,11 +198,11 @@
   color: var(--customColor1);
   transition: 300ms ease-in-out;
 }
-.subMenu-drop{
+.subMenu-drop {
   /* border:solid red; */
-  position:absolute;
-  right:-150px;
-  background-color:white;
+  position: absolute;
+  right: -150px;
+  background-color: white;
   border-radius: 10px;
   box-shadow: 0 0 10px grey;
   display: flex;
@@ -214,16 +213,15 @@
   transform: translateY(-20px);
   opacity: 0;
   transition: 300ms ease-in-out;
-  width:150px;
-  height:150px;
+  width: 150px;
+  height: 150px;
   padding: 10px;
-
 }
-#cardiologyDrop{
+#cardiologyDrop {
   /* border:solid blue; */
-  width:240px;
+  width: 240px;
 }
-#cardiologyDrop:hover .subMenu-drop{
+#cardiologyDrop:hover .subMenu-drop {
   visibility: visible;
   transform: translateY(0px);
   opacity: 1;
@@ -361,7 +359,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 30px;
-  font-size: 20px;  
+  font-size: 20px;
 }
 
 .inner-RespMenu > li:nth-child(2) {
@@ -376,7 +374,7 @@
   align-items: center;
   flex-direction: column;
   outline: none;
-  font-size: 20px;  
+  font-size: 20px;
 }
 
 .inner-RespMenu > li:nth-child(4) {
@@ -391,7 +389,7 @@
   align-items: center;
   flex-direction: column;
   outline: none;
-  font-size: 20px;  
+  font-size: 20px;
 }
 
 .respMenuList {
@@ -525,7 +523,48 @@
 .menuContainerBtn > a > button:hover::after {
   width: 100%;
 }
-
+.resp-subMenu {
+    /* border: solid green; */
+  width: 100%;
+  display: none;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  transition: 300ms ease-in-out;
+}
+.resp-subMenu>ul{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.resp-subMenu>ul>li{
+  width: 100%;
+  margin: 10px;
+  list-style: none;
+}
+.resp-subMenu>ul>li>a{
+  color: var(--customColor);
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+#resp-cardiology > span {
+  /* border: solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width:80%;
+}
+#resp-cardiology > span>a{
+  color: var(--customColor);
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 10px;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .menu-container {
     /* border: solid; */

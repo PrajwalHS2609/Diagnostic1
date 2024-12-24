@@ -13,23 +13,23 @@ export default function FooterAddress2() {
             <span>
               <FaLocationDot className="footerAddressIco" />
             </span>
-            123, 4th Cross, 7th Main, Indiranagar, Bengaluru, Karnataka, 560038.
+            No.19/1, 1st Main Road, 14th cross, Vyalikaval,Bengaluru-560003
           </Link>
         </li>
         <li>
-          <a href="tel:8042038405">
+          <a href="tel:8023444355">
             <span>
               <FaPhoneAlt className="footerAddressIco1" />
             </span>
-            080-4203 8405
+            080-2344 4355
           </a>
         </li>
         <li>
-          <a href="tel:8088640978">
+          <a href="tel:8184099959">
             <span>
               <FaPhoneAlt className="footerAddressIco1" />
             </span>
-            80886 40978
+            81840 99959
           </a>
         </li>
         <li className="addressFooter">

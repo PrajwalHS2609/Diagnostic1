@@ -9,9 +9,10 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 export default function Menu() {
   const [drop, setDrop] = useState(false);
+
   const dropRef = useRef<HTMLDivElement | null>(null);
   const dropRef2 = useRef<HTMLDivElement | null>(null);
-
+  const subDropRef=useRef<HTMLDivElement | null>(null);
   const showSideBar = () => {
     const exit = document.querySelector(".exit") as HTMLElement;
     const sideBar = document.querySelector(".resp-Menu") as HTMLElement;
@@ -62,17 +63,17 @@ export default function Menu() {
     ) as HTMLElement | null;
 
     // Ensure dropRef.current is not null
-    if (dropRef2.current) {
+    if (subDropRef.current) {
       if (!drop) {
         setDrop(true);
-        dropRef2.current.style.display = "flex"; // Safe to access
+        subDropRef.current.style.display = "flex"; // Safe to access
 
         if (arrow) {
           arrow.style.transform = "rotate(45deg)";
         }
       } else {
         setDrop(false);
-        dropRef2.current.style.display = "none"; // Safe to access
+        subDropRef.current.style.display = "none"; // Safe to access
 
         if (arrow) {
           arrow.style.transform = "rotate(0)";
@@ -193,26 +194,24 @@ export default function Menu() {
                   </li>
                   <li>
                     <Link href="/doppler-scan" onClick={hideSideBar}>
-                      Doppler Scanning
+                      Doppler Scan
                     </Link>
                     {/* <MdKeyboardArrowRight className="menuDrop-arrowIco" /> */}
                   </li>
-                  <li>
-                    <Link href="/x-ray" onClick={hideSideBar}>
-                      X-Ray
-                    </Link>
-                    {/* <MdKeyboardArrowRight className="menuDrop-arrowIco" /> */}
-                  </li>
-                  <li>
-                    <Link href="/cardiology-test" onClick={hideSideBar}>
+                  <li id="resp-cardiology">
+                  <span>
+                  <Link href="/cardiology-test" onClick={hideSideBar}>
                       Cardiology
                     </Link>
-                    <MdKeyboardArrowRight className="menuDrop-arrowIco" />
-                  </li>
-                  <li>
-                    <Link href="/radiology-services" onClick={hideSideBar}>
-                      Radiology Procedure
-                    </Link>
+                    <IoIosArrowDown className="menuDrop-arrowIco" onClick={handleDrop2} />
+                  </span>
+                    <div className="resp-subMenu" ref={subDropRef}>
+                  <ul>
+                    <li><Link href="/ecg-test">ECG</Link></li>
+                    <li><Link href="/echo-test">ECHO</Link></li>
+                    <li><Link href="/tmt-test">TMT</Link></li>
+                  </ul>
+                </div>
                   </li>
                 </ul>
               </div>
@@ -229,9 +228,10 @@ export default function Menu() {
                 <span>
                   <IoIosArrowDown
                     className="menu-arrowIco"
-                    onClick={handleDrop2}
+                    // onClick={handleDrop2}
                   />
                 </span>
+               
               </div>
               <div className="respDrop" ref={dropRef2}>
                 <ul>
