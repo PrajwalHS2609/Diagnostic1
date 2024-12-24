@@ -102,11 +102,7 @@ export default function Menu() {
                 {/* <MdKeyboardArrowRight className="menuDrop-arrowIco" /> */}
               </li>
               <li>
-                <Link href="/doppler-scan">Doppler Scanning</Link>
-                {/* <MdKeyboardArrowRight className="menuDrop-arrowIco" /> */}
-              </li>
-              <li>
-                <Link href="/x-ray">X-Ray</Link>
+                <Link href="/doppler-scan">Doppler Scan</Link>
                 {/* <MdKeyboardArrowRight className="menuDrop-arrowIco" /> */}
               </li>
               <li id="cardiologyDrop">
@@ -121,9 +117,6 @@ export default function Menu() {
                 </div>
               </li>
 
-              <li>
-                <Link href="/radiology-services">Radiology Procedure</Link>
-              </li>
             </ul>
           </div>
         </li>
