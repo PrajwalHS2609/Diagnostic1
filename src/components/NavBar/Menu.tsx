@@ -145,7 +145,7 @@ export default function Menu() {
           </div>
         </li>
         <li>
-          <Link href="/">About Us</Link>
+          <Link href="/about-us">About Us</Link>
         </li>
         <li>
           <Link href="/contact-us">Contact Us</Link>
