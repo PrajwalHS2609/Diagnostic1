@@ -8,6 +8,14 @@ import { IoIosArrowDown } from "react-icons/io";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
 export default function Menu() {
+  const handleAppointment = () => {
+    const bookPopUpElement = document.querySelector(".bookPopUp");
+    if (bookPopUpElement) {
+      (bookPopUpElement as HTMLElement).style.visibility = "visible";
+    } else {
+      console.warn("Element with class 'bookPopUp' not found");
+    }
+  };
   const [drop, setDrop] = useState(false);
 
   const dropRef = useRef<HTMLDivElement | null>(null);
@@ -200,9 +208,9 @@ export default function Menu() {
                   </span>
                     <div className="resp-subMenu" ref={subDropRef}>
                   <ul>
-                    <li><Link href="/ecg-test">ECG</Link></li>
-                    <li><Link href="/echo-test">ECHO</Link></li>
-                    <li><Link href="/tmt-test">TMT</Link></li>
+                    <li><Link href="/ecg-test" onClick={hideSideBar}>ECG</Link></li>
+                    <li><Link href="/echo-test" onClick={hideSideBar}>ECHO</Link></li>
+                    <li><Link href="/tmt-test" onClick={hideSideBar}>TMT</Link></li>
                   </ul>
                 </div>
                   </li>
@@ -254,8 +262,8 @@ export default function Menu() {
             <li className="menuContainerBtn-Container">
               <div className="menuContainerBtn">
                 {" "}
-                <Link href="/">
-                  <button>Book Now </button>
+                <Link href="/" >
+                  <button onClick={handleAppointment}>Book Now </button>
                 </Link>
               </div>
             </li>

@@ -12,7 +12,7 @@ import Link from "next/link";
 export default function HomeServiceMain() {
   const serviceData = [
     {
-      id: "1",
+      id: 1,
       img: "https://nisargadiagnostics.com/wp-content/uploads/2023/11/Medical-Labs.jpg",
       serviceName: "Pathology",
       serviceDescription:
@@ -20,39 +20,39 @@ export default function HomeServiceMain() {
       link: "/pathology",
     },
     {
-      id: "2",
+      id: 2,
       img: "https://nisargadiagnostics.com/wp-content/uploads/2023/11/3D-4D-Ultrasound-.png",
       serviceName: "Ultrasound" ,
       serviceDescription:
         "Experience the joy of parenthood with our advanced  Ultrasound. Capture precious moments and bond with your baby in stunning detail.",
       link: "/ultrasound-scan",
     },
+    // {
+    //   id: "3",
+    //   img: "https://nisargadiagnostics.com/wp-content/uploads/2023/11/Xray.jpg",
+    //   serviceName: "X-Ray",
+    //   serviceDescription:
+    //     " Experience swift and accurate diagnostics with our X-Ray services at  Global Health Diagnostics. Cutting-edge technology delivering detailed insights for better health outcomes.",
+    //   link: "/x-ray",
+    // },
     {
-      id: "3",
-      img: "https://nisargadiagnostics.com/wp-content/uploads/2023/11/Xray.jpg",
-      serviceName: "X-Ray",
-      serviceDescription:
-        " Experience swift and accurate diagnostics with our X-Ray services at  Global Health Diagnostics. Cutting-edge technology delivering detailed insights for better health outcomes.",
-      link: "/x-ray",
-    },
-    {
-      id: "4",
+      id: 3,
       img: "https://nisargadiagnostics.com/wp-content/uploads/2024/02/Doppler-Scan.png",
-      serviceName: "Doppler Scanning",
+      serviceName: "Doppler Scan",
       serviceDescription:
         "Ensure optimal vascular health with our Doppler Scan service. Advanced technology to assess blood flow, providing crucial insights for diagnosis and personalized care.",
       link: "/doppler-scan",
     },
+    // {
+    //   id: "5",
+    //   img: "https://nisargadiagnostics.com/wp-content/uploads/2023/11/Radiological-Procedures.png",
+    //   serviceName: "Radiological Procedures",
+    //   serviceDescription:
+    //     "Empowering women’s health through comprehensive radiological procedures. Our advanced imaging services cater to the specific diagnostic needs, ensuring accuracy and personalized care for every woman.",
+    //   link: "/radiology-services",
+    // },
     {
-      id: "5",
-      img: "https://nisargadiagnostics.com/wp-content/uploads/2023/11/Radiological-Procedures.png",
-      serviceName: "Radiological Procedures",
-      serviceDescription:
-        "Empowering women’s health through comprehensive radiological procedures. Our advanced imaging services cater to the specific diagnostic needs, ensuring accuracy and personalized care for every woman.",
-      link: "/radiology-services",
-    },
-    {
-      id: "6",
+      id: 4,
       img: "https://nisargadiagnostics.com/wp-content/uploads/2023/11/Echocardiography.png",
       serviceName: "Echo Cardiography",
       serviceDescription:
@@ -60,7 +60,7 @@ export default function HomeServiceMain() {
       link: "/echo-test",
     },
     {
-      id: "7",
+      id: 5,
       img: "https://nisargadiagnostics.com/wp-content/uploads/2023/11/ECG.jpg",
       serviceName: "ECG Test",
       serviceDescription:
@@ -68,7 +68,7 @@ export default function HomeServiceMain() {
       link: "/ecg-test",
     },
     {
-      id: "8",
+      id: 6,
       img: "https://nisargadiagnostics.com/wp-content/uploads/2023/11/Cardiology.jpg",
       serviceName: "TMT Test",
       serviceDescription:
@@ -76,7 +76,7 @@ export default function HomeServiceMain() {
       link: "/tmt-test",
     },
     {
-      id: "9",
+      id: 7,
       img: "https://nisargadiagnostics.com/wp-content/uploads/2023/11/Specialty-Consultations.png",
       serviceName: "Diabetologist Consultations",
       serviceDescription:
@@ -84,7 +84,7 @@ export default function HomeServiceMain() {
       link: "/",
     },
     {
-      id: "10",
+      id: 8,
       img: "https://first-c9d21.web.app/assets/Sonography-Cok0wyz_.png",
       serviceName: "Gynecologist Consultations",
       serviceDescription:
@@ -92,7 +92,7 @@ export default function HomeServiceMain() {
       link: "/",
     },
     {
-      id: "11",
+      id: 9,
       img: "https://nisargadiagnostics.com/wp-content/uploads/2023/11/Report.jpg",
       serviceName: "Blood Testing",
       serviceDescription:
