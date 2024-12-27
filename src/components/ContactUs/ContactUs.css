@@ -11,6 +11,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transform: rotateY(180deg);
 }
 .contactUs-headerContents {
   /* border: solid blue; */
@@ -193,23 +194,23 @@
   height: 40%;
   background-color: rgba(0, 0, 255, 0.352);
   border-radius: 20px;
-  padding:10px;
+  padding: 10px;
 }
-#contactUs-addressItem2Color{
+#contactUs-addressItem2Color {
   background-color: rgba(0, 255, 0, 0.352);
 }
-.contactUs-addressItem2>h3{
-  color:white;
+.contactUs-addressItem2 > h3 {
+  color: white;
   text-align: start;
 }
-.contactUs-addressItem2>ul>li {
+.contactUs-addressItem2 > ul > li {
   list-style: none;
   margin: 10px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 }
-.contactUs-addressItem2>ul>li>a {
+.contactUs-addressItem2 > ul > li > a {
   text-decoration: none;
   font-weight: 600;
   color: white;
@@ -218,11 +219,11 @@
   align-items: flex-start;
   gap: 10px;
 }
-@media  screen and (min-width:320px) and (max-width:768px){
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .contactUs-headerContainer {
     width: 100%;
     height: 100%;
-    flex-direction:column;
+    flex-direction: column;
   }
   .contactUs-headerContents {
     /* border: solid blue; */
@@ -230,12 +231,11 @@
     gap: 20px;
     width: 100%;
     height: 100%;
-    background-color:var(--customColor2);
-
+    background-color: var(--customColor2);
   }
   .contactUs-MainContainer {
     /* border: solid blue; */
-    flex-direction:column;
+    flex-direction: column;
   }
   .contactUs-MainContent {
     /* border: solid green; */
@@ -243,13 +243,13 @@
     width: 100%;
   }
   .contactUs-formItem1,
-.contactUs-formItem2 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 50px;
-  flex-direction:column;
-}
+  .contactUs-formItem2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+  }
   .contactUs-formItem2 > input {
     /* border: solid green; */
     height: 50px;
@@ -261,7 +261,8 @@
     height: 200px;
     width: 300px;
   }
-  .contactUs-addressItem2>ul{
-    margin:0;padding:0;
+  .contactUs-addressItem2 > ul {
+    margin: 0;
+    padding: 0;
   }
 }

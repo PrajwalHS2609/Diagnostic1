@@ -124,7 +124,7 @@
 .serviceCard-content {
   /* border: solid green; */
   width: 350px;
-  height: 600px;
+  height: 650px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -159,6 +159,7 @@
 
 .serviceCard-contentContainer > h3 {
   color: var(--customColor2);
+  font-size:25px
 }
 
 .serviceCard-contentContainer > p {

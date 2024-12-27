@@ -18,7 +18,7 @@
   width: 30px;
   height: 30px;
   color: white;
-  background-color: var(--customColor1);
+  background-color:red;
   border-radius: 100%;
   position: absolute;
   cursor: pointer;
@@ -61,18 +61,18 @@
   font-weight: 500;
 }
 .popFormFirstLvl > span > span {
-  color: var(--customColor1);
+  color: red;
 }
 .popFormFirstLvl > div {
   /* border: solid brown; */
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: flex-start;
-  gap: 30px;
+  gap: 110px;
 }
 .popFormFirstLvl > div > input {
-  border:1px solid grey;
+  border: 1px solid grey;
   width: 250px;
   height: 30px;
   padding: 10px;
@@ -94,7 +94,7 @@
   padding: 5px;
   font-size: 20px;
   color: white;
-  background-color: var(--customColor1);
+  background-color: var(--customColor2);
   &:hover {
     color: var(--customColor1);
     background-color: white;
