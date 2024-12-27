@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import "./../Styles/Styles.css";
 import xRayHeaderImg from "./../Images/ServiceHeaderImgs/General X Ray.png"
