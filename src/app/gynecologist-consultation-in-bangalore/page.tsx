@@ -1,4 +1,4 @@
-import GynecologistConsultContent from "@/components/DiabetologistConsult/DiabetologistConsultContent";
+import GynecologistConsultContent from "@/components/GynecologistConsult/GynoConsultContent";
 import GynecologistConsultHeader from "@/components/GynecologistConsult/GynoConsultHeader";
 import HomeAbout from "@/components/HomePage/HomeAbout/HomeAbout";
 import HomeDoctorProfile from "@/components/HomePage/HomeDoctorProfile/HomeDoctorProfile";
@@ -11,7 +11,6 @@ export default function GynecologistConsultation() {
       {" "}
       <GynecologistConsultHeader />
       <GynecologistConsultContent />
-
       <HomeAbout />
       <HomeWhy />
       <HomeDoctorProfile />
