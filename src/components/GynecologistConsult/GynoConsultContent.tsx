@@ -1,7 +1,7 @@
 export default function GynoConsultContent() {
   return (
     <div className="serviceContent-container">
-      <h1>Gynecologist Consultation in Rajajinagar, Bangalore</h1>
+      <h1>Gynecologist Consultation in Bangalore</h1>
       <p>
         When it comes to women’s health, having access to specialized care is
         essential. For those seeking reliable and compassionate gynecological

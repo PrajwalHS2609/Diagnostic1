@@ -1,7 +1,7 @@
 export default function GynecologistConsultContent() {
   return (
     <div className="serviceContent-container">
-      <h1>Diabetologist Consultation in Rajajinagar, Bangalore</h1>
+      <h1>Diabetologist Consultation in Bangalore</h1>
       <p>
         Managing diabetes effectively requires the right guidance and support
         from a specialist who understands the complexities of the condition. If
