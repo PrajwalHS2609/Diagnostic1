@@ -1,17 +1,20 @@
-import './../Styles/Styles.css'
+import "./../Styles/Styles.css";
+import Image from "next/image";
+import ecgHeaderImg from "./../Images/ServiceHeaderImgs/ECG.png"
+
 export default function ECGTestHeader() {
-    return (
-        <div className="serviceHeader-container">
-            <div className="serviceHeader-content">
-                <img src="https://first-c9d21.web.app/assets/ECG-hlS9Ds4Z.png" alt="" />
-            </div>
-            <div className="serviceHeader-content">
-                <div className='serviceHeader-item'>
-                    <h2>ECG Test in Bangalore</h2>
-                    <p>Creating Life's masterpiece, one kick at a time</p>
-                    <button>Book Appointment Now</button>
-                </div>
-            </div>
+  return (
+    <div className="serviceHeader-container">
+      <div className="serviceHeader-content">
+        <Image src={ecgHeaderImg} alt="ecgHeaderImg" />
+      </div>
+      <div className="serviceHeader-content">
+        <div className="serviceHeader-item">
+          <h2>ECG Test in Bangalore</h2>
+          <p>Creating Life's masterpiece, one kick at a time</p>
+          <button>Book an Appointment </button>
         </div>
-    )
+      </div>
+    </div>
+  );
 }

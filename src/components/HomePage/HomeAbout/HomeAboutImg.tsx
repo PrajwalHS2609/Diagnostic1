@@ -1,11 +1,10 @@
+import Image from "next/image";
+import aboutImg from "./HomeAboutImg/Blood Test.png";
 export default function HomeAboutImg() {
   return (
     <div className="homeAboutImg-container">
       <div className="homeAboutImg-content">
-        <img
-          src="https://img.freepik.com/free-photo/clinical-reception-with-waiting-room-facility-lobby-registration-counter-used-patients-with-medical-appointments-empty-reception-desk-health-center-checkup-visits_482257-51247.jpg?t=st=1734260669~exp=1734264269~hmac=78b599004a80ecd5ba0f0d36e47f37dc1bb85ceb71108a48c9c5482ff3e32eab&w=996"
-          alt=""
-        />
+        <Image src={aboutImg} alt="aboutImg" />
       </div>
       <div className="homeAboutImg-content">
         <div className="homeAboutImg-item">
@@ -22,7 +21,7 @@ export default function HomeAboutImg() {
             />
             <span>
               {" "}
-              <h5>Sandeep Reddy</h5>
+              <h5>Sandeep S</h5>
               Managing Director
             </span>
           </div>

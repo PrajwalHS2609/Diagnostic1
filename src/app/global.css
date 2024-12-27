@@ -8,8 +8,10 @@
 }
 
 :root {
-  --customColor1: #66fe02;
-  --customColor2: #0057fd;
+  /* --customColor1: #66fe02; */
+  --customColor1:#9BBD04;
+  /* --customColor2: #0057fd; */
+  --customColor2:#0054A3;
 }
 
 .main-container {

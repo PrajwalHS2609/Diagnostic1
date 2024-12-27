@@ -1,9 +1,12 @@
 import './../Styles/Styles.css'
+import Image from "next/image";
+import cardiologyHeaderImg from "./../Images/ServiceHeaderImgs/Cardiology.png"
+
 export default function CardiologyTestHeader() {
     return (
         <div className="serviceHeader-container">
             <div className="serviceHeader-content">
-                <img src="https://first-c9d21.web.app/assets/Cardiology-Gz1ZtfX_.png" alt="" />
+                <Image src={cardiologyHeaderImg} alt="cardiologyHeaderImg" />
             </div>
             <div className="serviceHeader-content">
                 <div className='serviceHeader-item'>

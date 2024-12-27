@@ -1,9 +1,10 @@
 .footer-container {
   width: 100%;
   height: 100%;
-  background-image: url("https://invivohospitals.com/wp-content/uploads/2023/04/trangle-bg.jpg");
+  /* background-image: url("https://invivohospitals.com/wp-content/uploads/2023/04/trangle-bg.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: var(--customColor2);
   padding: 30px;
   display: flex;
   justify-content: center;
@@ -164,7 +165,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 255, 0.363);
+  background-color:var(--customColor1);
   backdrop-filter: blur(10px);
   border-radius: 5px;
 }

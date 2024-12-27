@@ -42,8 +42,8 @@
 
 .logo-container {
   /* border: solid; */
-  width: 200px;
-  height: 60px;
+  width: 300px;
+  height: 70px;
   overflow: hidden;
 }
 
@@ -205,7 +205,7 @@
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 0 10px grey;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
