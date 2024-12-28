@@ -103,9 +103,40 @@
   font-family: 30px;
   text-align: center;
 }
+.serviceContent-container > h2 {
+  color: var(--customColor1);
+  font-family: 30px;
+  text-align: center;
+}
 .serviceContent-container > p {
   font-size: 18px;
   text-align: justify;
+}
+.serviceContent-container > h3 {
+  color: var(--customColor1);
+  text-align: center;
+}
+.serviceContent-container > ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.serviceContent-container > ul > h5 {
+  color: var(--customColor2);
+}
+.serviceContent-container > ul > li {
+  font-size: 18px;
+  list-style: none;
+  margin: 10px;
+}
+.serviceContent-container > ul > li > span {
+  color: var(--customColor2);
+  font-weight: 600;
+}
+.serviceContent-container > ul > li>h6{
+  color:var(--customColor2);
+  font-size: 18px;
+
 }
 
 /* -----------------------------Services Card Style-------------------------- */
@@ -159,7 +190,7 @@
 
 .serviceCard-contentContainer > h3 {
   color: var(--customColor2);
-  font-size:25px
+  font-size: 25px;
 }
 
 .serviceCard-contentContainer > p {

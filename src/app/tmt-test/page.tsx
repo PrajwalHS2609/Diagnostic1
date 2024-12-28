@@ -3,6 +3,7 @@ import HomeDoctorProfile from "@/components/HomePage/HomeDoctorProfile/HomeDocto
 import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeWhy from "@/components/HomePage/HomeWhy/HomeWhy";
 import TmtTestContent from "@/components/TmtTest/TmtTestContent";
+import TmtTestContentFooter from "@/components/TmtTest/TmtTestContentFooter";
 import TmtTestHeader from "@/components/TmtTest/TmtTestHeader";
 
 export default function EchoTest() {
@@ -14,6 +15,7 @@ export default function EchoTest() {
       <HomeWhy />
       <HomeDoctorProfile />
       <HomeTestimonial />
+      <TmtTestContentFooter />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import ECGTestContent from "@/components/ECGTest/ECGTestContent";
+import ECGTestContentFooter from "@/components/ECGTest/ECGTestContentFooter";
 import ECGTestHeader from "@/components/ECGTest/ECGTestHeader";
 import HomeAbout from "@/components/HomePage/HomeAbout/HomeAbout";
 import HomeDoctorProfile from "@/components/HomePage/HomeDoctorProfile/HomeDoctorProfile";
@@ -14,6 +15,8 @@ export default function ECGTest() {
       <HomeWhy />
       <HomeDoctorProfile />
       <HomeTestimonial />
+      <ECGTestContentFooter />
+
     </div>
   );
 }

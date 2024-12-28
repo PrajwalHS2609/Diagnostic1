@@ -1,4 +1,5 @@
 import EchoTestContent from "@/components/EchoTest/EchoTestContent";
+import EchoTestContentFooter from "@/components/EchoTest/EchoTestContentFooter";
 import EchoTestHeader from "@/components/EchoTest/EchoTestHeader";
 import EchoTestServices from "@/components/EchoTest/EchoTestServices";
 import HomeAbout from "@/components/HomePage/HomeAbout/HomeAbout";
@@ -16,6 +17,7 @@ export default function EchoTest() {
       <HomeWhy />
       <HomeDoctorProfile />
       <HomeTestimonial />
+      <EchoTestContentFooter />
     </div>
   );
 }

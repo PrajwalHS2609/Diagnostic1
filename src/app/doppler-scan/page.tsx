@@ -1,4 +1,5 @@
 import DopplerScanContent from "@/components/DopplerScan/DopplerScanContent";
+import DopplerScanContentFooter from "@/components/DopplerScan/DopplerScanContentFooter";
 import DopplerScanHeader from "@/components/DopplerScan/DopplerScanHeader";
 import DopplerScanServices from "@/components/DopplerScan/DopplerScanServices";
 import HomeAbout from "@/components/HomePage/HomeAbout/HomeAbout";
@@ -16,6 +17,8 @@ export default function DopplerScan() {
       <HomeWhy />
       <HomeDoctorProfile />
       <HomeTestimonial />
+      <DopplerScanContentFooter />
+
     </div>
   );
 }

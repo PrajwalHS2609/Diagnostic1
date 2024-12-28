@@ -1,5 +1,5 @@
-
 import CardiologyTestContent from "@/components/CardiologyTest/CardiologyTestContent";
+import CardiologyTestContentFooter from "@/components/CardiologyTest/CardiologyTestContentFooter";
 import CardiologyTestHeader from "@/components/CardiologyTest/CardiologyTestHeader";
 import CardiologyTestServices from "@/components/CardiologyTest/CardiologyTestServices";
 import HomeAbout from "@/components/HomePage/HomeAbout/HomeAbout";
@@ -8,15 +8,16 @@ import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimoni
 import HomeWhy from "@/components/HomePage/HomeWhy/HomeWhy";
 
 export default function CardiologyTest() {
-    return (
-        <div className="main-container">
-            <CardiologyTestHeader />
-            <CardiologyTestContent/>
-            <CardiologyTestServices/>
-            <HomeAbout />
-            <HomeWhy />
-            <HomeDoctorProfile />
-            <HomeTestimonial />
-        </div>
-    )
+  return (
+    <div className="main-container">
+      <CardiologyTestHeader />
+      <CardiologyTestContent />
+      <CardiologyTestServices />
+      <HomeAbout />
+      <HomeWhy />
+      <HomeDoctorProfile />
+      <HomeTestimonial />
+      <CardiologyTestContentFooter />
+    </div>
+  );
 }

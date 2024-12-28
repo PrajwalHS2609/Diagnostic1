@@ -5,6 +5,7 @@ import HomeWhy from "@/components/HomePage/HomeWhy/HomeWhy";
 import UltraSoundScanHeader from "@/components/UltraSoundScan/UltraSoundScanHeader";
 import UltraSoundScanService from "../../components/UltraSoundScan/UltraSoundScanServices";
 import UltraSoundScanContent from "@/components/UltraSoundScan/UltraSoundScanContent";
+import UltraSoundScanContentFooter from "@/components/UltraSoundScan/UltraSoundScanContentFooter";
 
 export default function UltraSoundScan() {
   return (
@@ -16,6 +17,7 @@ export default function UltraSoundScan() {
       <HomeWhy />
       <HomeDoctorProfile />
       <HomeTestimonial />
+      <UltraSoundScanContentFooter />
     </div>
   );
 }

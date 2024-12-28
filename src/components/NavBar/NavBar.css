@@ -80,6 +80,7 @@
   align-items: center;
   gap: 10px;
   font-weight: 500;
+  cursor:default;
 }
 
 .menu-content1 > li > a {

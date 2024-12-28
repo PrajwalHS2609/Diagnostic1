@@ -20,7 +20,7 @@ export default function Menu() {
 
   const dropRef = useRef<HTMLDivElement | null>(null);
   const dropRef2 = useRef<HTMLDivElement | null>(null);
-  const subDropRef=useRef<HTMLDivElement | null>(null);
+  const subDropRef = useRef<HTMLDivElement | null>(null);
   const showSideBar = () => {
     const exit = document.querySelector(".exit") as HTMLElement;
     const sideBar = document.querySelector(".resp-Menu") as HTMLElement;
@@ -118,13 +118,18 @@ export default function Menu() {
                 <MdKeyboardArrowRight className="menuDrop-arrowIco" />
                 <div className="subMenu-drop">
                   <ul>
-                    <li><Link href="/ecg-test">ECG</Link></li>
-                    <li><Link href="/echo-test">ECHO</Link></li>
-                    <li><Link href="/tmt-test">TMT</Link></li>
+                    <li>
+                      <Link href="/ecg-test">ECG</Link>
+                    </li>
+                    <li>
+                      <Link href="/echo-test">ECHO</Link>
+                    </li>
+                    <li>
+                      <Link href="/tmt-test">TMT</Link>
+                    </li>
                   </ul>
                 </div>
               </li>
-
             </ul>
           </div>
         </li>
@@ -132,14 +137,18 @@ export default function Menu() {
           <Link href="/health-packages">Health Packages</Link>
         </li>
         <li>
-          <Link href="/">Consultation</Link>
+          Consultation
           <div className="menuDrop-container">
             <ul>
               <li>
-                <Link href="/diabetologist-consultation-in-bangalore">Diabetologist Consultation</Link>
+                <Link href="/diabetologist-consultation-in-bangalore">
+                  Diabetologist Consultation
+                </Link>
               </li>
               <li>
-                <Link href="/gynecologist-consultation-in-bangalore">Gynaecologist Consultation</Link>
+                <Link href="/gynecologist-consultation-in-bangalore">
+                  Gynaecologist Consultation
+                </Link>
               </li>
             </ul>
           </div>
@@ -200,19 +209,34 @@ export default function Menu() {
                     {/* <MdKeyboardArrowRight className="menuDrop-arrowIco" /> */}
                   </li>
                   <li id="resp-cardiology">
-                  <span>
-                  <Link href="/cardiology-test" onClick={hideSideBar}>
-                      Cardiology
-                    </Link>
-                    <IoIosArrowDown className="menuDrop-arrowIco" onClick={handleDrop2} />
-                  </span>
+                    <span>
+                      <Link href="/cardiology-test" onClick={hideSideBar}>
+                        Cardiology
+                      </Link>
+                      <IoIosArrowDown
+                        className="menuDrop-arrowIco"
+                        onClick={handleDrop2}
+                      />
+                    </span>
                     <div className="resp-subMenu" ref={subDropRef}>
-                  <ul>
-                    <li><Link href="/ecg-test" onClick={hideSideBar}>ECG</Link></li>
-                    <li><Link href="/echo-test" onClick={hideSideBar}>ECHO</Link></li>
-                    <li><Link href="/tmt-test" onClick={hideSideBar}>TMT</Link></li>
-                  </ul>
-                </div>
+                      <ul>
+                        <li>
+                          <Link href="/ecg-test" onClick={hideSideBar}>
+                            ECG
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/echo-test" onClick={hideSideBar}>
+                            ECHO
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/tmt-test" onClick={hideSideBar}>
+                            TMT
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -232,15 +256,18 @@ export default function Menu() {
                     // onClick={handleDrop2}
                   />
                 </span>
-               
               </div>
               <div className="respDrop" ref={dropRef2}>
                 <ul>
                   <li>
-                    <Link href="/diabetologist-consultation-in-bangalore">Diabetologist Consultation</Link>
+                    <Link href="/diabetologist-consultation-in-bangalore">
+                      Diabetologist Consultation
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/gynecologist-consultation-in-bangalore">Gynaecologist Consultation</Link>
+                    <Link href="/gynecologist-consultation-in-bangalore">
+                      Gynaecologist Consultation
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -262,7 +289,7 @@ export default function Menu() {
             <li className="menuContainerBtn-Container">
               <div className="menuContainerBtn">
                 {" "}
-                <Link href="/" >
+                <Link href="/">
                   <button onClick={handleAppointment}>Book Now </button>
                 </Link>
               </div>
