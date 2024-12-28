@@ -20,10 +20,7 @@ export default function DiabetologistConsultHeader() {
       <div className="serviceHeader-content">
         <div className="serviceHeader-item">
           <h2>Diabetologist Consultation in Bangalore </h2>
-          <p>
-            Diabetologist Consultation in Bangalore, look no further than Global
-            Health Diagnostics.
-          </p>
+          <p>Small Steps, Big Impact on Diabetes Health.</p>
           <button onClick={handleAppointment}>Book an Appointment </button>
         </div>
       </div>

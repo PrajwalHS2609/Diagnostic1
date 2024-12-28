@@ -21,7 +21,8 @@ export default function EchoTestHeader() {
             <div className="serviceHeader-content">
                 <div className='serviceHeader-item'>
                     <h2>Echo Test in Bangalore</h2>
-                    <p>Creating Life's masterpiece, one kick at a time</p>
+                    <p>Providing a clear view of your heart to safeguard your health.
+                    </p>
                     <button  onClick={handleAppointment}>Book an Appointment </button>
                     </div>
             </div>

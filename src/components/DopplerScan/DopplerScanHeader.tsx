@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
 import "./../Styles/Styles.css";
 import Image from "next/image";
-import dopplerHeaderImg from "./../Images/ServiceHeaderImgs/Doppler.png"
+import dopplerHeaderImg from "./../Images/ServiceHeaderImgs/Doppler.png";
 
 export default function DopplerScanHeader() {
   const handleAppointment = () => {
@@ -16,15 +16,12 @@ export default function DopplerScanHeader() {
   return (
     <div className="serviceHeader-container">
       <div className="serviceHeader-content">
-        <Image
-          src={dopplerHeaderImg}
-          alt="dopplerHeaderImg"
-        />
+        <Image src={dopplerHeaderImg} alt="dopplerHeaderImg" />
       </div>
       <div className="serviceHeader-content">
         <div className="serviceHeader-item">
           <h2>Doppler Scan in Bangalore</h2>
-          <p>Creating Life's masterpiece, one kick at a time</p>
+          <p>Accurate insights to keep your health moving forward</p>
           <button onClick={handleAppointment}>Book an Appointment </button>
         </div>
       </div>

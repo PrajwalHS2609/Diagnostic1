@@ -20,10 +20,7 @@ export default function GynecologistConsultHeader() {
       <div className="serviceHeader-content">
         <div className="serviceHeader-item">
           <h2>Gynecologist Consultation in Bangalore </h2>
-          <p>
-            Gynecologist Consultation in Bangalore, look no further than Global
-            Health Diagnostics.
-          </p>
+          <p>Compassionate Care for Every Stage of Womanhood</p>
           <button onClick={handleAppointment}>Book an Appointment </button>
         </div>
       </div>

@@ -21,7 +21,7 @@ export default function TmtTestHeader() {
       <div className="serviceHeader-content">
         <div className="serviceHeader-item">
           <h2>TMT Test in Bangalore</h2>
-          <p>Creating Life's masterpiece, one kick at a time</p>
+          <p>Assessing your heart's strength to ensure your health is protected.</p>
           <button onClick={handleAppointment}>Book an Appointment </button>
         </div>
       </div>

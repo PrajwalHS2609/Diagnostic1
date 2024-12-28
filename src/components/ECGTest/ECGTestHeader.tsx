@@ -21,7 +21,7 @@ export default function ECGTestHeader() {
       <div className="serviceHeader-content">
         <div className="serviceHeader-item">
           <h2>ECG Test in Bangalore</h2>
-          <p>Creating Life's masterpiece, one kick at a time</p>
+          <p>Clearly monitoring your heart's health for peace of mind.</p>
           <button onClick={handleAppointment}>Book an Appointment </button>
         </div>
       </div>
