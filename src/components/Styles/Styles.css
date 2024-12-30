@@ -182,7 +182,7 @@
 } */
 .serviceItem-container {
   border-radius: 20px;
-  width:100%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -216,7 +216,7 @@
   height: 80px;
   margin-bottom: 10px;
   border-radius: 100%;
-  padding:20px;
+  padding: 20px;
   border: 2px solid var(--customColor1); /* Accent for images */
 }
 

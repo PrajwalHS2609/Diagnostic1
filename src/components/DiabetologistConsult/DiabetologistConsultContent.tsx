@@ -2,8 +2,11 @@ import Image from "next/image";
 import care from "./../Images/comprehensiveService/care.png";
 import lifestyle from "./../Images/comprehensiveService/lifestyle.png";
 import innovative from "./../Images/comprehensiveService/innovative.png";
-import service from "./../Images/comprehensiveService/service.png";
 import treatments from "./../Images/comprehensiveService/treatments.png";
+import blood from "./../Images/comprehensiveService/blood.png";
+import retina from "./../Images/comprehensiveService/retina-scan.png";
+import kidney from "./../Images/comprehensiveService/kidney.png";
+
 
 export default function GynecologistConsultContent() {
   return (
@@ -23,23 +26,23 @@ export default function GynecologistConsultContent() {
       <h3> Advanced Diagnostic Services</h3>
       <div className="serviceItem-container">
         <div className="serviceItem-content" id="serviceItem-content1">
-          <Image src={service} alt="service" />
+          <Image src={blood} alt="blood" />
           Blood Sugar Tests
         </div>
         <div className="serviceItem-content" id="serviceItem-content2">
-          <Image src={service} alt="service" />
+          <Image src={blood} alt="blood" />
           HbA1c Testing
         </div>
         <div className="serviceItem-content" id="serviceItem-content1">
-          <Image src={service} alt="service" />
+          <Image src={blood} alt="blood" />
           Lipid Profiles
         </div>
         <div className="serviceItem-content" id="serviceItem-content2">
-          <Image src={service} alt="service" />
+          <Image src={kidney} alt="kidney" />
           Kidney Function Tests
         </div>
         <div className="serviceItem-content" id="serviceItem-content1">
-          <Image src={service} alt="service" />
+          <Image src={retina} alt="retina" />
           Retinal Screenings
         </div>
       </div>

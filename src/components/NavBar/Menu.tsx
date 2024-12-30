@@ -138,16 +138,17 @@ export default function Menu() {
         </li>
         <li>
           Consultation
+          <IoIosArrowDown className="menu-arrowIco" />
           <div className="menuDrop-container">
             <ul>
               <li>
                 <Link href="/diabetologist-consultation-in-bangalore">
-                  Diabetologist Consultation
+                  Diabetologist
                 </Link>
               </li>
               <li>
                 <Link href="/gynecologist-consultation-in-bangalore">
-                  Gynaecologist Consultation
+                  Gynaecologist
                 </Link>
               </li>
             </ul>
@@ -261,12 +262,12 @@ export default function Menu() {
                 <ul>
                   <li>
                     <Link href="/diabetologist-consultation-in-bangalore">
-                      Diabetologist Consultation
+                      Diabetologist
                     </Link>
                   </li>
                   <li>
                     <Link href="/gynecologist-consultation-in-bangalore">
-                      Gynaecologist Consultation
+                      Gynaecologist
                     </Link>
                   </li>
                 </ul>
