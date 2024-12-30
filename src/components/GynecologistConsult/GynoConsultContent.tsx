@@ -20,7 +20,7 @@ export default function GynoConsultContent() {
         needs with excellence and empathy.
       </p>
       <br />
-      <h3>Routine Check-Ups and Preventive Care</h3>
+      {/* <h3>Routine Check-Ups and Preventive Care</h3>
       <div className="serviceItem-container">
         <div className="serviceItem-content" id="serviceItem-content1">
           <Image src={checkup} alt="checkup" />
@@ -72,24 +72,6 @@ export default function GynoConsultContent() {
         </div>
       </div>
       <br />
-      {/* <h3> Menstrual and Hormonal Health</h3>
-      <div className="serviceItem-container">
-        <div className="serviceItem-content" id="serviceItem-content1">
-          <Image src={fertilization} alt="fertilization" /> Polycystic Ovary
-          Syndrome (PCOS)
-        </div>
-        <div className="serviceItem-content" id="serviceItem-content2">
-          <Image src={fertilization} alt="fertilization" /> Endometriosis
-        </div>
-        <div className="serviceItem-content" id="serviceItem-content1">
-          <Image src={fertilization} alt="fertilization" /> Fibroids
-        </div>
-        <div className="serviceItem-content" id="serviceItem-content1">
-          <Image src={fertilization} alt="fertilization" /> Premenstrual
-          Syndrome (PMS)
-        </div>
-      </div> */}
-      <br />
       <h3> Pregnancy and Prenatal Care</h3>
       <div className="serviceItem-container">
         <div className="serviceItem-content" id="serviceItem-content1">
@@ -138,7 +120,7 @@ export default function GynoConsultContent() {
         <div className="serviceItem-content" id="serviceItem-content1">
           <Image src={service} alt="service" /> Ultrasound imaging
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
