@@ -1,10 +1,10 @@
-import Image from "next/image";
-import checkup from "./../Images/comprehensiveService/checkup.png";
-import fertilization from "./../Images/comprehensiveService/fertilization.png";
-import health from "./../Images/comprehensiveService/health.png";
-import pregnancy from "./../Images/comprehensiveService/pregnancy.png";
-import menopause from "./../Images/comprehensiveService/menopause.png";
-import service from "./../Images/comprehensiveService/service.png";
+// import Image from "next/image";
+// import checkup from "./../Images/comprehensiveService/checkup.png";
+// import fertilization from "./../Images/comprehensiveService/fertilization.png";
+// import health from "./../Images/comprehensiveService/health.png";
+// import pregnancy from "./../Images/comprehensiveService/pregnancy.png";
+// import menopause from "./../Images/comprehensiveService/menopause.png";
+// import service from "./../Images/comprehensiveService/service.png";
 
 export default function GynoConsultContent() {
   return (
@@ -20,7 +20,8 @@ export default function GynoConsultContent() {
         needs with excellence and empathy.
       </p>
       <br />
-      {/* <h3>Routine Check-Ups and Preventive Care</h3>
+   {/* <div className="serviceItem-wrapper">  
+     <h3>Routine Check-Ups and Preventive Care</h3>
       <div className="serviceItem-container">
         <div className="serviceItem-content" id="serviceItem-content1">
           <Image src={checkup} alt="checkup" />
@@ -120,7 +121,7 @@ export default function GynoConsultContent() {
         <div className="serviceItem-content" id="serviceItem-content1">
           <Image src={service} alt="service" /> Ultrasound imaging
         </div>
-      </div> */}
+      </div></div> */}
     </div>
   );
 }

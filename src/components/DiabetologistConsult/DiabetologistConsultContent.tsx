@@ -1,9 +1,9 @@
-import Image from "next/image";
-import care from "./../Images/comprehensiveService/care.png";
-import lifestyle from "./../Images/comprehensiveService/lifestyle.png";
-import innovative from "./../Images/comprehensiveService/innovative.png";
-import service from "./../Images/comprehensiveService/service.png";
-import treatments from "./../Images/comprehensiveService/treatments.png";
+// import Image from "next/image";
+// import care from "./../Images/comprehensiveService/care.png";
+// import lifestyle from "./../Images/comprehensiveService/lifestyle.png";
+// import innovative from "./../Images/comprehensiveService/innovative.png";
+// import service from "./../Images/comprehensiveService/service.png";
+// import treatments from "./../Images/comprehensiveService/treatments.png";
 
 export default function GynecologistConsultContent() {
   return (
