@@ -1,4 +1,4 @@
 why choose design for {
-    doppler scan;ecg; echo;tmt;diabetologist,gynocologist;
+    doppler scan;ecg; echo;tmt;
 
 }

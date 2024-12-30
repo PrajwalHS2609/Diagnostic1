@@ -1,9 +1,9 @@
-// import Image from "next/image";
-// import care from "./../Images/comprehensiveService/care.png";
-// import lifestyle from "./../Images/comprehensiveService/lifestyle.png";
-// import innovative from "./../Images/comprehensiveService/innovative.png";
-// import service from "./../Images/comprehensiveService/service.png";
-// import treatments from "./../Images/comprehensiveService/treatments.png";
+import Image from "next/image";
+import care from "./../Images/comprehensiveService/care.png";
+import lifestyle from "./../Images/comprehensiveService/lifestyle.png";
+import innovative from "./../Images/comprehensiveService/innovative.png";
+import service from "./../Images/comprehensiveService/service.png";
+import treatments from "./../Images/comprehensiveService/treatments.png";
 
 export default function GynecologistConsultContent() {
   return (
@@ -20,7 +20,7 @@ export default function GynecologistConsultContent() {
         fulfilling life.
       </p>
       <br />
-      {/* <h3> Advanced Diagnostic Services</h3>
+      <h3> Advanced Diagnostic Services</h3>
       <div className="serviceItem-container">
         <div className="serviceItem-content" id="serviceItem-content1">
           <Image src={service} alt="service" />
@@ -106,7 +106,7 @@ export default function GynecologistConsultContent() {
           <Image src={care} alt="care" />
           Self-Monitoring Techniques
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
