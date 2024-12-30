@@ -1,45 +1,6 @@
 export default function GynoConsultContentFooter() {
   return (
     <div className="serviceContent-container">
-      <h3>Why Choose Global Health Diagnostics for Gynecological Care?</h3>
-      <p>
-        At Global Health Diagnostics, we prioritize your health and well-being
-        by offering comprehensive gynecological services. Here’s what sets us
-        apart:
-      </p>
-
-      <ul>
-        <li>
-          <h6>1. Highly Qualified Specialists:</h6>
-          <p>
-            Our team includes some of the most experienced and skilled
-            gynecologists in Bangalore, Malleshwaram, and Sadashivanagar.
-          </p>
-        </li>
-        <li>
-          <h6>2. State-of-the-Art Facilities:</h6>
-          <p>
-            We utilize advanced diagnostic tools and technologies to provide
-            accurate assessments and effective treatments.
-          </p>
-        </li>
-        <li>
-          <h6> 3. Patient-Centered Approach:</h6>
-          <p>
-            Your comfort and privacy are of utmost importance to us. We ensure
-            that every consultation is thorough, respectful, and tailored to
-            your unique needs.
-          </p>
-        </li>
-        <li>
-          <h6>4. Comprehensive Services:</h6>
-          <p>
-            From routine check-ups to complex treatments, we cover a wide range
-            of gynecological needs.
-          </p>
-        </li>
-      </ul>
-      <br />
       <h3>Gynecologist Consultation in Bangalore</h3>
       <p>
         Bangalore is home to a dynamic and diverse community, and women here

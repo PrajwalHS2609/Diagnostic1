@@ -1,49 +1,6 @@
 export default function DiabetologistConsultContentFooter() {
   return (
     <div className="serviceContent-container" id="serviceContent-containerColor">
-      <h3>
-        Why Choose the Best Diabetologist in Bangalore at Global Health
-        Diagnostics?
-      </h3>
-      <p>
-        At Global Health Diagnostics, we understand that diabetes management is
-        more than just monitoring blood sugar levels. It involves a holistic
-        approach that encompasses lifestyle modifications, dietary guidance,
-        advanced diagnostic tools, and personalized treatment plans. Here's why
-        our diabetologists stand out:
-      </p>
-      <ul>
-        <li>
-          <h6>1. Extensive Expertise:</h6>
-          <p>
-            {" "}
-            With years of experience and a deep understanding of diabetes, our
-            specialists are among the best diabetologists in Bangalore.
-          </p>
-        </li>
-        <li>
-          <h6> 2. State-of-the-Art Facilities:</h6>
-          <p>
-            We utilize advanced diagnostic tools to ensure accurate assessments
-            and effective treatment strategies.
-          </p>
-        </li>
-        <li>
-          <h6>3. Patient-Centric Care:</h6>
-          <p>
-            Our approach prioritizes your comfort and convenience, ensuring that
-            you receive personalized attention and guidance.
-          </p>
-        </li>
-        <li>
-          <h6> 4. Comprehensive Services:</h6>
-          <p>
-            From routine check-ups to advanced treatments, we provide a wide
-            range of services to address all aspects of diabetes care.
-          </p>
-        </li>
-      </ul>
-      <br />
       <h3>Meet the Best Diabetologist in Malleshwaram</h3>
       <p>
         At Global Health Diagnostics, we understand that diabetes management is

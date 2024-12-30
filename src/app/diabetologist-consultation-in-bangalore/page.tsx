@@ -1,6 +1,7 @@
 import DiabetologistConsultContent from "@/components/DiabetologistConsult/DiabetologistConsultContent";
 import DiabetologistConsultContentFooter from "@/components/DiabetologistConsult/DiabetologistConsultContentFooter";
 import DiabetologistConsultHeader from "@/components/DiabetologistConsult/DiabetologistConsultHeader";
+import DiabetologistConsultWhy from "@/components/DiabetologistConsult/DiabetologistConsultWhy";
 import HomeAbout from "@/components/HomePage/HomeAbout/HomeAbout";
 import HomeDoctorProfile from "@/components/HomePage/HomeDoctorProfile/HomeDoctorProfile";
 import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
@@ -16,8 +17,8 @@ export default function DiabetologistConsultation() {
       <HomeWhy />
       <HomeDoctorProfile />
       <HomeTestimonial />
+      <DiabetologistConsultWhy />
       <DiabetologistConsultContentFooter />
-
     </div>
   );
 }
