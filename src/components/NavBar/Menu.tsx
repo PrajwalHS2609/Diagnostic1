@@ -21,6 +21,7 @@ export default function Menu() {
   const dropRef = useRef<HTMLDivElement | null>(null);
   const dropRef2 = useRef<HTMLDivElement | null>(null);
   const subDropRef = useRef<HTMLDivElement | null>(null);
+
   const showSideBar = () => {
     const exit = document.querySelector(".exit") as HTMLElement;
     const sideBar = document.querySelector(".resp-Menu") as HTMLElement;
@@ -65,23 +66,24 @@ export default function Menu() {
       console.error("dropRef is null or not attached to an element");
     }
   };
-  const handleDrop2 = () => {
+
+  const handleConsultDrop = () => {
     const arrow = document.querySelector(
       ".menuDrop-arrowIco"
     ) as HTMLElement | null;
 
     // Ensure dropRef.current is not null
-    if (subDropRef.current) {
+    if (dropRef2.current) {
       if (!drop) {
         setDrop(true);
-        subDropRef.current.style.display = "flex"; // Safe to access
+        dropRef2.current.style.display = "flex"; // Safe to access
 
         if (arrow) {
           arrow.style.transform = "rotate(45deg)";
         }
       } else {
         setDrop(false);
-        subDropRef.current.style.display = "none"; // Safe to access
+        dropRef2.current.style.display = "none"; // Safe to access
 
         if (arrow) {
           arrow.style.transform = "rotate(0)";
@@ -89,6 +91,32 @@ export default function Menu() {
       }
     } else {
       console.error("dropRef is null or not attached to an element");
+    }
+  };
+
+  const handleDrop2 = () => {
+    const arrow = document.querySelector(
+      ".menuDrop-arrowIco"
+    ) as HTMLElement | null;
+
+    // Ensure subDropRef.current is not null
+    if (subDropRef.current) {
+      if (!drop) {
+        setDrop(true);
+        // Change display style
+        subDropRef.current.style.display = "none";
+        console.log("up");
+        // Optionally manipulate the arrow
+        if (arrow) arrow.classList.add("rotate"); // Example of adding a class to the arrow
+      } else {
+        setDrop(false);
+        subDropRef.current.style.display = "flex";
+        console.log("down");
+        // Optionally manipulate the arrow
+        if (arrow) arrow.classList.remove("rotate"); // Example of removing a class
+      }
+    } else {
+      console.error("subDropRef is null or not attached to an element");
     }
   };
   return (
@@ -254,19 +282,25 @@ export default function Menu() {
                 <span>
                   <IoIosArrowDown
                     className="menu-arrowIco"
-                    // onClick={handleDrop2}
+                    onClick={handleConsultDrop}
                   />
                 </span>
               </div>
               <div className="respDrop" ref={dropRef2}>
                 <ul>
                   <li>
-                    <Link href="/diabetologist-consultation-in-bangalore">
+                    <Link
+                      href="/diabetologist-consultation-in-bangalore"
+                      onClick={hideSideBar}
+                    >
                       Diabetologist
                     </Link>
                   </li>
                   <li>
-                    <Link href="/gynecologist-consultation-in-bangalore">
+                    <Link
+                      href="/gynecologist-consultation-in-bangalore"
+                      onClick={hideSideBar}
+                    >
                       Gynaecologist
                     </Link>
                   </li>
